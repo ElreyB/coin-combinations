@@ -16,4 +16,10 @@ class CoinCombinations
     @cents -= dimes
     dimes
   end
+
+  def nickels_needed
+    nickels = @cents / 5
+    @cents -= nickels
+    nickels
+  end
 end
