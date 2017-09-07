@@ -5,5 +5,9 @@ class CoinCombinations
     @cents = cents
   end
 
-
+  def quarters_needed
+    quarters = @cents / 25
+    @cents -= quarters
+    quarters
+  end
 end
