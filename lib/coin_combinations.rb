@@ -10,4 +10,10 @@ class CoinCombinations
     @cents -= quarters
     quarters
   end
+
+  def dimes_needed
+    dimes = @cents / 10
+    @cents -= dimes
+    dimes
+  end
 end

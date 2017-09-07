@@ -12,7 +12,7 @@ describe 'CoinCombinations' do
 
   describe '#dimes_needed' do
     it 'returns the smallest amount of dimes to make change' do
-      expect(coins.dimes_needed).to eq 10
+      expect(coins.dimes_needed).to eq 8
     end
   end
 
