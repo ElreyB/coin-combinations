@@ -1,6 +1,6 @@
 # _Coin Combinations_
 
-#### _Coin Combinations: Epicodus exercise, 08.20.2017_
+#### _Coin Combinations: Epicodus exercise, 09.7.2017_
 
 #### By _**Elrey Belmonti**_
 
