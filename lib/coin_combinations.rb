@@ -22,4 +22,10 @@ class CoinCombinations
     @cents -= nickels
     nickels
   end
+
+  def pennies_needed
+    pennies = @cents
+    @cents -= pennies
+    pennies 
+  end
 end
