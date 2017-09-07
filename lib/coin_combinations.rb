@@ -28,4 +28,8 @@ class CoinCombinations
     @cents -= pennies
     pennies
   end
+
+  def to_s
+    "You will have #{quarters_needed} quarter(s), #{dimes_needed} dime(s), #{nickels_needed} nickel(s), and #{pennies_needed} penny(ies)"
+  end
 end

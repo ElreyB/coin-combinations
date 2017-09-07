@@ -44,10 +44,10 @@ describe 'CoinCombinations' do
     end
   end
 
-  # describe '#to_s' do
-  #   it 'returns a user freindly output of coins needed to make change' do
-  #     expect(coins.to_s).to eq "You will need "
-  #   end
-  # end
+  describe '#to_s' do
+    it 'returns a user freindly output of coins needed to make change' do
+      expect(coins.to_s).to eq "You will have 3 quarter(s), 1 dime(s), 0 nickel(s), and 4 penny(ies)"
+    end
+  end
 
 end
